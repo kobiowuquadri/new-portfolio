@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header {
+    display: grid;
+    background-color: #eee;
+}
+
+.cloud-1 {
+    padding:50px 200px 0px 0px;
+}
+.cloud-1 > img {
+    float: right; 
+}
+
+.cloud-2 {
+    padding: 0px 0px 0px 200px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.title > h1 {
+    font-family: 'Great Vibes', cursive;
+    color: rgba(10, 164, 184, 0.765);
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+
+.title > p {
+    color: rgba(10, 164, 184, 0.765);
+    font-size: 2rem;
+}
+.mountain-img {
+    display: flex;
+    justify-content: center;
+}
+
+.child1 {
+    text-align: center;
+    margin: 100px;
+}
+
+.child2 {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+td {
+    padding: 5px;
+}
+
+.child3 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #eee;
+    padding-top: 50px;
+}
+
+.child3 > h1 {
+    color: green;
+    padding-top: 60px;
+}
+
+.child3 hr {
+    height: 5px;
+    width: 320px;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-top: 30px;
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery img:hover {
+    width: 370px;
+    height: 320px;
+    transition: 1s ease-in-out;
+}
+
+.child4 {
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    display: grid;
+    row-gap: 30px;
+}
+
+button {
+    border: none;
+    background-color: rgba(10, 164, 184, 0.765);
+    color: white;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 40px;
+    background-color:rgba(10, 164, 184, 0.765) ;
+    height: 200px;
+    
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgba(6, 87, 98, 0.765);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
